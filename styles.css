@@ -6,22 +6,41 @@ body {
     
     margin: 0;
     padding: 0;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     background-color: #0b3954;
-    font-size: 24px;
+    font-size: 18px;
     color: #ff6663;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-bottom: 16px;
 }
 
 .container {
     border: 12px solid #ff6663;
-    margin: 32px;
-    height: 500px;
+    width: 750px;
+    height: 750px;
+    margin: 24px;
+
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.node {
+    border: 1px solid black;
+    background-color: white;
+    flex: 1;
+
+    min-width: 5.5px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
 }
