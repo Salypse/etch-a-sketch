@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Shizuru&display=swap');
+
+body {
+    background-color: #bfd7ea;
+    font-family: "Shizuru", system-ui;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0b3954;
+    font-size: 24px;
+    color: #ff6663;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 16px;
+}
+
+.container {
+    border: 12px solid #ff6663;
+    margin: 32px;
+    height: 500px;
+}
