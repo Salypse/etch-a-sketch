@@ -14,3 +14,13 @@ function testRow(size) {
 }
 
 testRow(16)
+
+
+//changes the color of node cursor is on
+const nodes = document.querySelectorAll(".node")
+
+nodes.forEach((node) => {
+    node.addEventListener("mouseover", () => {
+        node.style.backgroundColor = "black"
+    })
+})
