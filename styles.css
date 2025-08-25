@@ -25,7 +25,7 @@ body {
     border: 12px solid #ff6663;
     width: 750px;
     height: 750px;
-    margin: 24px;
+    margin: 12px;
 
     display: flex;
     align-self: center;
@@ -43,4 +43,21 @@ body {
 .row {
     display: flex;
     flex: 1;
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 8px;
+}
+
+.size-button {
+    font-size: 20px;
+    color: #ff6663;
+    background-color: #0b3954;
+    border-radius: 8px;
+
+    cursor: pointer;
 }
